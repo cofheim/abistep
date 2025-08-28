@@ -1,4 +1,79 @@
-zadanie.md
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
 
+# C-расширения
+*.so
+
+# ---- Виртуальное окружение ----
+venv/
+env/
 .venv/
-.env
+.env/
+ENV/
+
+# ---- Логи и временные файлы ----
+*.log
+*.out
+*.err
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ---- Кэш и отчёты ----
+.cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ---- Инструменты анализа ----
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ---- IDE и редакторы ----
+.vscode/
+.idea/
+*.iml
+
+# ---- Базы данных ----
+*.db
+*.sqlite3
+*.sqlite
+instance/
+db.sqlite3
+
+# ---- Артефакты билдов ----
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+
+# ---- Docker ----
+*.pid
+*.pid.lock
+docker-compose.override.yml
+
+# ---- Pydantic/Settings ----
+.env.local
+.env.*.local
+.envrc
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb
+
+# ---- Misc ----
+.DS_Store
+Thumbs.db
+
+zadanie.md
